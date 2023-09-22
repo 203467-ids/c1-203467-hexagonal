@@ -1,0 +1,24 @@
+{
+  "name": "c1-203467-hexagonal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/203467-ids/c1-203467-hexagonal.git",
+  "author": "203467 <77993108+203467-ids@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc && nodemon ./build/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.6.3",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.33.0",
+    "sequelize-typescript": "^2.1.5"
+  }
+}
